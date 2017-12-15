@@ -10,7 +10,7 @@ ADMIN_USER		= admin
 USERNAME		=
 
 .PHONY: all clean configure demoteuser \
-	help install promoteuser serve syncdb test
+	help install promoteuser test
 
 all: help ## Display help
 
@@ -34,13 +34,6 @@ promoteuser: ## Promote a user to admin status
 
 demoteuser: ## Demote a user to admin status
 	$(MANAGE) demote $(USERNAME)
-
-serve: ## Run the server on $PORT: Default=8000
-	$(MANAGE) runserver $(HOST):$(PORT)
-
-syncdb: ## Apply migrations
-	$(MANAGE) makemigrations
-	$(MANAGE) migrate
 
 test: ## Run the unit tests
 	$(MANAGE) test
