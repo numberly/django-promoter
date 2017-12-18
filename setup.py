@@ -29,7 +29,7 @@ setup(
     author_email='theo.massard@1000mercis.com',
 
     # Choose your license
-    license='1000mercis',
+    license='MIT',
 
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
@@ -43,7 +43,7 @@ setup(
         'Intended Audience :: Developers',
 
         # Pick your license as you wish (should match "license" above)
-        'License :: 1000mercis Approved :: 1000mercis License',
+        'License :: OSI Approved :: MIT License',
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
