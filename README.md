@@ -16,6 +16,21 @@
 - 2. Add `'django_promoter'` to your `'INSTALLED_APPS'` settings
 - 3. You can now access the `promote` and `demote` commands from your `./manage.py`
 
+
+## Usage
+
+#### Promote a user
+
+```bash
+$ ./manage.py promote username
+```
+
+### Demote a user
+
+```bash
+$ ./manage.py promote username
+```
+
 ## Why would I use this ?
 
 There are some specific some use-cases, such as the one I encountered,
