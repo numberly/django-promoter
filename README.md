@@ -1,5 +1,7 @@
 # Django Promoter
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **django-promoter**, a Django admin panel for the CLI fanatics.
 
 ## Features
