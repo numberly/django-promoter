@@ -3,9 +3,9 @@ Django Promoter
 
 |License: MIT| |PyPI version|
 
-    Give me the damn rights already.
+    Give me the damn rights.
 
-Features
+Current Features
 --------
 
 -  Promote an existing user
@@ -42,19 +42,14 @@ Demote a user
 
 .. code:: bash
 
-    $ ./manage.py promote username
+    $ ./manage.py demote username
 
 Why would I use this ?
 ----------------------
 
-There are some specific some use-cases, such as the one I encountered,
-which was about having some users on an LDAP server, and I had some
-issues granting superuser rights to myself.
+There are some specific some use-cases, such as the one you can encounter,
+while having a RO backend. (Such as LDAP)
 
-I didn't find such a tool, so I made this simple commands.
-
-In addition, I'm totally a CLI guy, I plan on not having to log into the
-admin panel, because it's not really my thing.
 
 .. |License: MIT| image:: https://img.shields.io/badge/License-MIT-yellow.svg
    :target: https://opensource.org/licenses/MIT
