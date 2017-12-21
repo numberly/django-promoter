@@ -5,7 +5,7 @@ from codecs import open
 from setuptools import setup, find_packages
 
 HERE = path.abspath(path.dirname(__file__))
-PROMOTER_VER = '0.3'
+PROMOTER_VER = '0.4'
 
 # Get the long description from the README file
 with open(path.join(HERE, 'README.rst'), encoding='utf-8') as f:
