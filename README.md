@@ -1,7 +1,7 @@
 # Django Promoter
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PyPI version](https://badge.fury.io/py/promoter.svg)](https://badge.fury.io/py/promoter)
+[![PyPI version](https://badge.fury.io/py/django-promoter.svg)](https://badge.fury.io/py/django-promoter)
 
 > Give me the damn rights already.
 
