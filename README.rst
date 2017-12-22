@@ -50,6 +50,13 @@ Why would I use this ?
 There are some specific some use-cases, such as the one you can encounter,
 while having a RO backend. (Such as LDAP)
 
+License
+-------
+
+The MIT License (MIT)
+
+Copyright (c) 2017 Numberly
+
 
 .. |License: MIT| image:: https://img.shields.io/badge/License-MIT-yellow.svg
    :target: https://opensource.org/licenses/MIT
