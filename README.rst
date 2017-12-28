@@ -47,15 +47,19 @@ Demote a user
 Why would I use this ?
 ----------------------
 
-There are some specific some use-cases, such as the one you can encounter,
-while having a RO backend. (Such as LDAP)
+The main purpose of this project is to be able to manage rights when you 
+have to use a read-only backend.
+The `./manage.py createsuperuser` isn't available because you can't create
+new users.
+Using Django Promoter, once the user is inserted in the Django database,
+you can promote him to a superuser without having to modify the auth database.
 
 License
 -------
 
 The MIT License (MIT)
 
-Copyright (c) 2017 Numberly
+Copyright © 2017 Numberly
 
 
 .. |License: MIT| image:: https://img.shields.io/badge/License-MIT-yellow.svg
