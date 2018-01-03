@@ -25,12 +25,18 @@ setup(
     license='MIT',
 
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 5 - Production/Stable',
+
+        'Environment :: Console',
+
+        'Framework :: Django',
 
         'Intended Audience :: Developers',
+        'Intended Audience :: System Administrators',
 
         'License :: OSI Approved :: MIT License',
 
+        'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
     ],
 
