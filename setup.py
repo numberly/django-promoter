@@ -6,16 +6,13 @@ from setuptools import setup, find_packages
 HERE = path.abspath(path.dirname(__file__))
 PROMOTER_VER = '0.5'
 
-with open(path.join(HERE, 'README.rst'), encoding='utf-8') as f:
-    long_description = f.read()
-
 setup(
     name='django-promoter',
 
     version=PROMOTER_VER,
 
     description='Django commands used to promote or demote users',
-    long_description=long_description,
+    long_description=open('README.rst').read(),
 
     url='https://github.com/numberly/django-promoter',
 
