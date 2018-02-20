@@ -1,15 +1,12 @@
-"""
-Allow LDAP user demotion
-"""
+"""Allow command line demotion."""
 from django.contrib.auth.models import User
 from django.core.management.base import BaseCommand, CommandError
 
 
 class Command(BaseCommand):
-    """Demote a staff, admin, or superuser member to simple user
-    """
+    """Demote a staff, admin, or superuser member to simple user"""
 
-    help = 'Demote a user to superuser'
+    help = 'Demote a user from a superuser'
 
     def add_arguments(self, parser):
         """Get username."""
@@ -21,15 +18,15 @@ class Command(BaseCommand):
         try:
             user = User.objects.get(username=username)
         except User.DoesNotExist:
-            raise CommandError('User %s does not exist' % username)
+            raise CommandError('User {} does not exist'.format(username))
         user.is_superuser = False
         user.is_staff = False
         user.is_admin = False
         user.save()
 
         self.stdout.write(self.style.SUCCESS(
-            'Successfully demoted user %s' % username
+            'Successfully demoted user {}'.format(username)
         ))
 
 
-__all__ = ['Command']
+__all__ = ('Command',)
