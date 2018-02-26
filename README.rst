@@ -34,14 +34,12 @@ Promote a user
 ^^^^^^^^^^^^^^
 
 .. code:: bash
-
     $ ./manage.py promote username
 
 Demote a user
 ~~~~~~~~~~~~~
 
 .. code:: bash
-
     $ ./manage.py demote username
 
 Why would I use this ?
