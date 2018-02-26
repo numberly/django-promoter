@@ -34,14 +34,12 @@ Promote a user
 ^^^^^^^^^^^^^^
 
 .. code:: bash
-
     $ ./manage.py promote username
 
 Demote a user
 ~~~~~~~~~~~~~
 
 .. code:: bash
-
     $ ./manage.py demote username
 
 Why would I use this ?
@@ -65,4 +63,4 @@ Copyright © 2017 Numberly
 .. |License: MIT| image:: https://img.shields.io/badge/License-MIT-yellow.svg
    :target: https://opensource.org/licenses/MIT
 .. |PyPI version| image:: https://badge.fury.io/py/promoter.svg
-   :target: https://badge.fury.io/py/promoter
+   :target: https://badge.fury.io/py/django_promoter
