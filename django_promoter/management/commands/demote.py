@@ -4,7 +4,7 @@ from django.core.management.base import BaseCommand, CommandError
 
 
 class Command(BaseCommand):
-    """Demote a staff, admin, or superuser member to simple user"""
+    """Demote a staff, admin, or superuser member to simple user."""
 
     help = 'Demote a user from a superuser'
 
