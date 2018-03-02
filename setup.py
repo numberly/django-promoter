@@ -4,7 +4,7 @@ from codecs import open
 from setuptools import setup, find_packages
 
 HERE = path.abspath(path.dirname(__file__))
-PROMOTER_VER = '1.0'
+PROMOTER_VER = '1.0.1'
 
 setup(
     name='django-promoter',
