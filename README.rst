@@ -6,7 +6,7 @@ Django Promoter
     Give me the damn rights.
 
 Current Features
---------
+----------------
 
 -  Promote an existing user
 -  Demote an existing user
