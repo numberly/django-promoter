@@ -64,5 +64,5 @@ Copyright © 2017 Numberly
 
 .. |License: MIT| image:: https://img.shields.io/badge/License-MIT-yellow.svg
    :target: https://opensource.org/licenses/MIT
-.. |PyPI version| image:: https://badge.fury.io/py/promoter.svg
-   :target: https://badge.fury.io/py/django_promoter
+.. |PyPI version| image:: https://badge.fury.io/py/django-promoter.svg
+   :target: https://badge.fury.io/py/django-promoter
